@@ -37,13 +37,6 @@ function MyInfoComponent() {
     <div>
      <p>{myName}</p>
      <p>my favorite movies are {favoriteMovies[0]}, {favoriteMovies[1]} and {favoriteMovies[2]}</p>
-     {/* <p>{favoriteMovies.map((x)=>{
-          return (
-              <li>
-                {x}
-              </li>
-          )
-      })}</p> */}
       <p style={{backgroundColor: favoriteColor}}>{favoriteColor}</p>
       <p>my age is {myAge}</p>
 
